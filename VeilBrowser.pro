@@ -29,8 +29,4 @@ FORMS += \
     ui/downloadmanagerwidget.ui \
     ui/downloadwidget.ui
 
-DESTDIR = build
-OBJECTS_DIR = build/.obj
-MOC_DIR = build/.moc
-RCC_DIR = build/.qrc
-UI_DIR = build/.ui
+RESOURCES = resources.qrc
